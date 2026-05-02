@@ -1,7 +1,7 @@
 ---
-generated_at: 2026-05-02T14:25:09+00:00
+generated_at: 2026-05-02T14:29:09+00:00
 generated_by: ethbot
-version: unknown
+version: b502072
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
@@ -16,14 +16,15 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **True**
-- version: `unknown`
-- paper_balance: **$10,600.47** (= starting $100,000 + total_pnl $-89,399.53)
-- daily_pnl: **$-130.44**
-- today_trades: 5
+- version: `b502072`
+- paper_balance: **$106,284.55** (= starting $100,000 + total_pnl $+6,284.55)
+- daily_pnl: **$+1,312.81**
+- today_trades: 96
+- lifetime trades: 792
 - lifetime win-rate: 53.2%
 - open_positions: 31 pair(s)
-- paper_locked: $2,956.84
-- streaks: win=0 / loss=1
+- paper_locked: $226,849.76
+- streaks: win=0 / loss=0
 
 ## 📈 7-Day PnL Trajectory
 
