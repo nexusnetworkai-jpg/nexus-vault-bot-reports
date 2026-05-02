@@ -3,7 +3,7 @@ proposal_id: e2e-test-1
 title: E2E Test — TP_MAX Round-Trip
 created: 2026-05-02
 created_by: ethbot-test
-status: active
+status: applied
 parameter: TP_MAX
 old_value: 0.025
 new_value: 0.030
@@ -16,12 +16,11 @@ expected_outcome: |
   with applied_at, applied_by=ethbot, applied_version=<sha>.
 target_metric: round_trip_completed
 evaluation_window_days: 0
-applied_at: null
-applied_by: null
-applied_version: null
+applied_at: 2026-05-02T11:19:33+00:00
+applied_by: ethbot
+applied_version: unknown
 result: null
 ---
-
 # E2E Test — TP_MAX Round-Trip
 
 ## Hypothesis
@@ -43,3 +42,10 @@ None — paper_mode active, value within safe range.
 ## Result
 
 (Wird vom Bot nach Apply gefüllt — auto-generated)
+
+
+## Result (auto-applied by bot)
+
+- when: `2026-05-02T11:19:33+00:00`
+- bot version: `unknown`
+- effective on next bot restart
