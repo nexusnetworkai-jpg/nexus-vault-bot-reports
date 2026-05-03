@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-05-02T14:32:25+00:00
+generated_at: 2026-05-03T00:01:02+00:00
 generated_by: ethbot
 version: e19c312
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-05-02
+# Session Context — 2026-05-03
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -17,13 +17,13 @@ tags: [session-context, bot-snapshot]
 
 - paper_mode: **True**
 - version: `e19c312`
-- paper_balance: **$109,128.25** (= starting $100,000 + total_pnl $+9,128.25)
-- daily_pnl: **$+2,945.16**
-- today_trades: 124
-- lifetime trades: 1016
+- paper_balance: **$109,873.99** (= starting $100,000 + total_pnl $+9,873.99)
+- daily_pnl: **$+0.00**
+- today_trades: 0
+- lifetime trades: 1120
 - lifetime win-rate: 53.2%
 - open_positions: 0 pair(s)
-- paper_locked: $87,614.82
+- paper_locked: $64,035.45
 - streaks: win=0 / loss=0
 
 ## 📈 7-Day PnL Trajectory
@@ -34,7 +34,7 @@ tags: [session-context, bot-snapshot]
 | 2026-04-29 | 54 | $+682.72 | 38 | 16 | 70% |
 | 2026-04-30 | 73 | $+355.70 | 52 | 21 | 71% |
 | 2026-05-01 | 51 | $+222.59 | 35 | 15 | 70% |
-| 2026-05-02 | 28 | $+1,632.37 | 14 | 13 | 52% |
+| 2026-05-02 | 50 | $+1,944.67 | 29 | 20 | 59% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -56,23 +56,21 @@ _(keine)_
 
 ## 🔔 Open Anomalies (heutige Daily-Note)
 
-- ⚠️ **WIN_RATE_DROP** · `AVAXUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `LINKUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `SOLUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `BNBUSDT` — last-5 win-rate 0% (< 30%)
+- ⚠️ **LOSS_STREAK** · `BNBUSDT` — 5 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `ETHUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `ETHUSDT` — 6 consecutive losing SELLs
+- ⚠️ **LOSS_STREAK** · `ETHUSDT` — 10 consecutive losing SELLs
+- ⚠️ **WIN_RATE_DROP** · `ORCAUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `ZECUSDT` — last-5 win-rate 20% (< 30%)
 
 ## 🛠 Watchlist Suggestions
 
-- Schau dir `AVAXUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `LINKUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `SOLUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `BNBUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `BNBUSDT` mit 5 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `ETHUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `ETHUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- `ETHUSDT` mit 10 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- Schau dir `ORCAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `ZECUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 
 ## 📜 Recent Commits (last 7)
 
@@ -92,4 +90,4 @@ _(git log unavailable)_
 
 ## 📍 Where We Left Off
 
-Open anomaly demanding attention: **WIN_RATE_DROP** on `AVAXUSDT`
+Open anomaly demanding attention: **WIN_RATE_DROP** on `BNBUSDT`
