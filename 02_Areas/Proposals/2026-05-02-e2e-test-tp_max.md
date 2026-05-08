@@ -16,7 +16,7 @@ evaluation_window_days: 0
 applied_at: 2026-05-02T11:19:33+00:00
 applied_by: ethbot
 applied_version: unknown
-result: null
+result: inconclusive_low_n: total_pnl=0 (n=0, window=0.0d, expected≈0.03)
 ---
 # E2E Test — TP_MAX Round-Trip
 
@@ -39,3 +39,16 @@ None — paper_mode active, value within safe range.
 ## Result
 
 (Wird vom Bot nach Apply gefüllt — auto-generated)
+
+
+## Result (auto-filled by bot @ 2026-05-08T11:59:33+00:00)
+
+| | |
+|---|---|
+| target_metric | `total_pnl` |
+| measured | **0** |
+| expected (parsed) | `0.03` |
+| verdict | **inconclusive_low_n** |
+| sell-trade count (n) | 0 |
+| window | 0.0d (2026-05-02T11:19:33+00:00 → 2026-05-02T11:19:33+00:00) |
+| bot version | `unknown` |
