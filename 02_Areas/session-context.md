@@ -1,7 +1,7 @@
 ---
-generated_at: 2026-05-08T00:01:04+00:00
+generated_at: 2026-05-08T12:15:01+00:00
 generated_by: ethbot
-version: e19c312
+version: 48a2b4f
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
@@ -16,14 +16,14 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **True**
-- version: `e19c312`
-- paper_balance: **$123,172.30** (= starting $100,000 + total_pnl $+23,172.30)
-- daily_pnl: **$+0.00**
-- today_trades: 0
-- lifetime trades: 2722
-- lifetime win-rate: 53.3%
+- version: `48a2b4f`
+- paper_balance: **$122,313.20** (= starting $100,000 + total_pnl $+22,313.20)
+- daily_pnl: **$-859.10**
+- today_trades: 116
+- lifetime trades: 2838
+- lifetime win-rate: 52.8%
 - open_positions: 0 pair(s)
-- paper_locked: $75,694.39
+- paper_locked: $64,281.91
 - streaks: win=0 / loss=0
 
 ## 📈 7-Day PnL Trajectory
@@ -37,6 +37,7 @@ tags: [session-context, bot-snapshot]
 | 2026-05-05 | 72 | $+2,279.49 | 52 | 19 | 73% |
 | 2026-05-06 | 64 | $+17.61 | 42 | 22 | 66% |
 | 2026-05-07 | 90 | $+1,347.06 | 54 | 34 | 61% |
+| 2026-05-08 | 18 | $-144.86 | 13 | 5 | 72% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -58,17 +59,21 @@ _(keine)_
 
 ## 🔔 Open Anomalies (heutige Daily-Note)
 
-- ⚠️ **WIN_RATE_DROP** · `DOGEUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `DOGEUSDT` — 5 consecutive losing SELLs
+- ⚠️ **WIN_RATE_DROP** · `XRPUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `BNBUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `TRXUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `VANAUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **HIGH_EXPOSURE** · `portfolio` — paper_locked 85% of equity
 
 ## 🛠 Watchlist Suggestions
 
-- Schau dir `DOGEUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `DOGEUSDT` mit 5 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- Schau dir `XRPUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `BNBUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `TRXUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `VANAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Hohe Exposure — paper_locked 85% of equity. Portfolio-Guard hat nicht gefeuert? Check ob Portfolio-Guard-Schwelle aktuell genug ist.
 
 ## 📜 Recent Commits (last 7)
 
@@ -85,7 +90,9 @@ _(git log unavailable)_
 - 🚧 `audit/stage1-7a-vault-pipeline-watch.md` (in-progress)
 - ✓ `audit/stage1-7b-auto-context-watch.md` (complete)
 - 🚧 `audit/stage1-7c-vault-proposals-watch.md` (in-progress)
+- 🚧 `audit/stage1-7d-decision-journal-watch.md` (in-progress)
+- 🚧 `audit/stage1-ops-cleanup-watch.md` (in-progress)
 
 ## 📍 Where We Left Off
 
-Open anomaly demanding attention: **WIN_RATE_DROP** on `DOGEUSDT`
+Open anomaly demanding attention: **WIN_RATE_DROP** on `XRPUSDT`
