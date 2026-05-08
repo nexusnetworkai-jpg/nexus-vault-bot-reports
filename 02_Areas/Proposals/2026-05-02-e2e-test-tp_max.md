@@ -12,7 +12,7 @@ hypothesis: |
   Verifies validate -> apply -> .env.tuned write -> vault status update.
 expected_outcome: Erwarte +$3000 total_pnl ueber 6d Beobachtungs-Window mit TP_MAX=0.030 vs Baseline
 target_metric: total_pnl
-evaluation_window_days: 0
+evaluation_window_days: 6
 applied_at: 2026-05-02T11:19:33+00:00
 applied_by: ethbot
 applied_version: unknown
