@@ -19,7 +19,7 @@ evaluation_window_days: 0
 applied_at: 2026-05-02T11:19:33+00:00
 applied_by: ethbot
 applied_version: unknown
-result: null
+result: unknown_metric: 'round_trip_completed'
 ---
 # E2E Test — TP_MAX Round-Trip
 
@@ -49,3 +49,10 @@ None — paper_mode active, value within safe range.
 - when: `2026-05-02T11:19:33+00:00`
 - bot version: `unknown`
 - effective on next bot restart
+
+
+## Result (auto-filled by bot)
+
+- when: `2026-05-08T11:57:24+00:00`
+- bot version: `unknown`
+- error: target_metric `round_trip_completed` not in allowed set (['avg_trade_pnl', 'daily_pnl_avg', 'max_drawdown', 'total_pnl', 'trade_count', 'win_rate'])
