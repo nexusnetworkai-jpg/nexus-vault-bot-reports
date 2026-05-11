@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-05-10T00:01:03+00:00
+generated_at: 2026-05-11T00:01:04+00:00
 generated_by: ethbot
-version: 5f42ecb
+version: b9ce914
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-05-10
+# Session Context — 2026-05-11
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,12 +16,12 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **True**
-- version: `5f42ecb`
-- paper_balance: **$138,168.11** (= starting $100,000 + total_pnl $+38,168.11)
+- version: `b9ce914`
+- paper_balance: **$146,723.45** (= starting $100,000 + total_pnl $+46,723.45)
 - daily_pnl: **$+0.00**
 - today_trades: 0
-- lifetime trades: 4318
-- lifetime win-rate: 52.7%
+- lifetime trades: 4788
+- lifetime win-rate: 53.7%
 - open_positions: 0 pair(s)
 - paper_locked: $0.00
 - streaks: win=0 / loss=0
@@ -30,13 +30,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-03 | 169 | $+1,390.78 | 90 | 75 | 55% |
 | 2026-05-04 | 168 | $+2,348.92 | 106 | 61 | 63% |
 | 2026-05-05 | 177 | $+2,516.84 | 107 | 69 | 61% |
 | 2026-05-06 | 187 | $-1,187.31 | 106 | 79 | 57% |
 | 2026-05-07 | 225 | $+4,400.20 | 135 | 85 | 61% |
 | 2026-05-08 | 187 | $+2,586.78 | 115 | 71 | 62% |
 | 2026-05-09 | 132 | $+647.63 | 66 | 64 | 51% |
+| 2026-05-10 | 185 | $+4,277.68 | 131 | 52 | 72% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -58,23 +58,13 @@ _(keine)_
 
 ## 🔔 Open Anomalies (heutige Daily-Note)
 
-- ⚠️ **WIN_RATE_DROP** · `XRPUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `LINKUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `SOLUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `SOLUSDT` — 6 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `ZECUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `VANAUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `NILUSDT` — last-5 win-rate 20% (< 30%)
 
 ## 🛠 Watchlist Suggestions
 
-- Schau dir `XRPUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `LINKUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `SOLUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `SOLUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `ZECUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `VANAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `NILUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 
@@ -95,6 +85,7 @@ _(git log unavailable)_
 - 🚧 `audit/b2-7b-1-2-remaining-guards-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-2-trade-pair-user-aware-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-3a-list-active-users-fix-watch.md` (in-progress)
+- 🚧 `audit/b2-7b-3b-multi-user-diagnostics-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-engine-body-refactor-watch.md` (in-progress)
 - 🚧 `audit/b2-7c-paper-locked-recompute-watch.md` (in-progress)
 - 🚧 `audit/b2-7d-position-sizer-cap-watch.md` (in-progress)
@@ -115,4 +106,4 @@ _(git log unavailable)_
 
 ## 📍 Where We Left Off
 
-Open anomaly demanding attention: **WIN_RATE_DROP** on `XRPUSDT`
+Open anomaly demanding attention: **WIN_RATE_DROP** on `PLUMEUSDT`
