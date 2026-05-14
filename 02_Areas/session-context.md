@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-05-13T00:01:04+00:00
+generated_at: 2026-05-14T00:01:05+00:00
 generated_by: ethbot
-version: b272970
+version: b34d14a
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-05-13
+# Session Context — 2026-05-14
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,12 +16,12 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **True**
-- version: `b272970`
-- paper_balance: **$150,347.51** (= starting $100,000 + total_pnl $+50,347.51)
+- version: `b34d14a`
+- paper_balance: **$128,154.58** (= starting $100,000 + total_pnl $+28,154.58)
 - daily_pnl: **$+0.00**
 - today_trades: 0
-- lifetime trades: 5509
-- lifetime win-rate: 53.2%
+- lifetime trades: 5847
+- lifetime win-rate: 52.8%
 - open_positions: 0 pair(s)
 - paper_locked: $0.00
 - streaks: win=0 / loss=0
@@ -30,13 +30,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-06 | 187 | $-1,187.31 | 106 | 79 | 57% |
 | 2026-05-07 | 225 | $+4,400.20 | 135 | 85 | 61% |
 | 2026-05-08 | 187 | $+2,586.78 | 115 | 71 | 62% |
 | 2026-05-09 | 132 | $+647.63 | 66 | 64 | 51% |
 | 2026-05-10 | 185 | $+4,277.68 | 131 | 52 | 72% |
 | 2026-05-11 | 135 | $+1,136.89 | 70 | 63 | 53% |
 | 2026-05-12 | 152 | $+675.15 | 78 | 70 | 53% |
+| 2026-05-13 | 115 | $-11,096.46 | 55 | 58 | 49% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -58,15 +58,25 @@ _(keine)_
 
 ## 🔔 Open Anomalies (heutige Daily-Note)
 
-- ⚠️ **WIN_RATE_DROP** · `SUIUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `XRPUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `SOLUSDT` — last-5 win-rate 0% (< 30%)
+- ⚠️ **LOSS_STREAK** · `SOLUSDT` — 6 consecutive losing SELLs
+- ⚠️ **WIN_RATE_DROP** · `ETHUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `ZECUSDT` — last-5 win-rate 0% (< 30%)
+- ⚠️ **LOSS_STREAK** · `ZECUSDT` — 8 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `VANAUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `NILUSDT` — last-5 win-rate 20% (< 30%)
 
 ## 🛠 Watchlist Suggestions
 
-- Schau dir `SUIUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `XRPUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `SOLUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `SOLUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- Schau dir `ETHUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `ZECUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `ZECUSDT` mit 8 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `VANAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `NILUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 
@@ -108,4 +118,4 @@ _(git log unavailable)_
 
 ## 📍 Where We Left Off
 
-Open anomaly demanding attention: **WIN_RATE_DROP** on `SUIUSDT`
+Open anomaly demanding attention: **WIN_RATE_DROP** on `XRPUSDT`
