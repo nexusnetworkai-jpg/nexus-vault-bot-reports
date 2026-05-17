@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-05-15T00:01:04+00:00
+generated_at: 2026-05-17T00:01:04+00:00
 generated_by: ethbot
-version: 7e5f111
+version: 1036573
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-05-15
+# Session Context — 2026-05-17
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,12 +16,12 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **False**
-- version: `7e5f111`
-- paper_balance: **$126,187.24** (= starting $100,000 + total_pnl $+26,187.24)
+- version: `1036573`
+- paper_balance: **$111,347.33** (= starting $100,000 + total_pnl $+11,347.33)
 - daily_pnl: **$+0.00**
 - today_trades: 0
-- lifetime trades: 5926
-- lifetime win-rate: 52.6%
+- lifetime trades: 3602
+- lifetime win-rate: 52.3%
 - open_positions: 0 pair(s)
 - paper_locked: $0.00
 - streaks: win=0 / loss=0
@@ -30,13 +30,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-08 | 187 | $+2,586.78 | 115 | 71 | 62% |
-| 2026-05-09 | 132 | $+647.63 | 66 | 64 | 51% |
 | 2026-05-10 | 185 | $+4,277.68 | 131 | 52 | 72% |
 | 2026-05-11 | 135 | $+1,136.89 | 70 | 63 | 53% |
 | 2026-05-12 | 152 | $+675.15 | 78 | 70 | 53% |
 | 2026-05-13 | 115 | $-11,096.46 | 55 | 58 | 49% |
 | 2026-05-14 | 21 | $-983.66 | 9 | 12 | 43% |
+| 2026-05-15 | 2 | $-1.76 | 0 | 2 | 0% |
+| 2026-05-16 | 10 | $-1,325.45 | 0 | 10 | 0% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -59,10 +59,12 @@ _(keine)_
 ## 🔔 Open Anomalies (heutige Daily-Note)
 
 - ⚠️ **WIN_RATE_DROP** · `XRPUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `BTCUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `SOLUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `SOLUSDT` — 7 consecutive losing SELLs
+- ⚠️ **LOSS_STREAK** · `SOLUSDT` — 9 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `DOGEUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `ETHUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `ETHUSDT` — last-5 win-rate 0% (< 30%)
+- ⚠️ **LOSS_STREAK** · `ETHUSDT` — 8 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `SUIUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `SUIUSDT` — 5 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
@@ -74,10 +76,12 @@ _(keine)_
 ## 🛠 Watchlist Suggestions
 
 - Schau dir `XRPUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `BTCUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `SOLUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `SOLUSDT` mit 7 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- `SOLUSDT` mit 9 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `DOGEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `ETHUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `ETHUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `ETHUSDT` mit 8 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `SUIUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `SUIUSDT` mit 5 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
@@ -94,6 +98,7 @@ _(git log unavailable)_
 
 - 🚧 `audit/api-version-field-watch.md` (in-progress)
 - 🚧 `audit/b1-auth-reactivation-watch.md` (in-progress)
+- 🚧 `audit/b2-1-multi-tenant-architecture-spec-watch.md` (in-progress)
 - 🚧 `audit/b2-2-schema-migration-watch.md` (in-progress)
 - 🚧 `audit/b2-3-user-context-watch.md` (in-progress)
 - 🚧 `audit/b2-4-state-refactor-watch.md` (in-progress)
@@ -101,9 +106,12 @@ _(git log unavailable)_
 - 🚧 `audit/b2-6-me-endpoints-watch.md` (in-progress)
 - 🚧 `audit/b2-7-engine-user-loop-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-1-2-remaining-guards-watch.md` (in-progress)
+- 🚧 `audit/b2-7b-1-3-compute-decision-wiring-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-2-trade-pair-user-aware-watch.md` (in-progress)
+- 🚧 `audit/b2-7b-3-flag-flip-cutover-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-3a-list-active-users-fix-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-3b-multi-user-diagnostics-watch.md` (in-progress)
+- 🚧 `audit/b2-7b-3c-cutover-watch.md` (in-progress)
 - 🚧 `audit/b2-7b-engine-body-refactor-watch.md` (in-progress)
 - 🚧 `audit/b2-7c-paper-locked-recompute-watch.md` (in-progress)
 - 🚧 `audit/b2-7d-position-sizer-cap-watch.md` (in-progress)
@@ -114,6 +122,8 @@ _(git log unavailable)_
 - 🚧 `audit/j1-paper-balance-sot-watch.md` (in-progress)
 - 🚧 `audit/j2-j4-exit-logic-watch.md` (in-progress)
 - 🚧 `audit/j3-macd-confidence-watch.md` (in-progress)
+- 🚧 `audit/margin-executor-verification-watch.md` (in-progress)
+- 🚧 `audit/post-bs1-re-audit-watch.md` (in-progress)
 - 🚧 `audit/pre-cutover-final-prep-watch.md` (in-progress)
 - 🚧 `audit/stage1-7a-vault-pipeline-watch.md` (in-progress)
 - ✓ `audit/stage1-7b-auto-context-watch.md` (complete)
