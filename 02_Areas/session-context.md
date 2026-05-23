@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-05-22T00:01:04+00:00
+generated_at: 2026-05-23T00:01:04+00:00
 generated_by: ethbot
-version: bc5a43a
+version: e220caf
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-05-22
+# Session Context — 2026-05-23
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,11 +16,11 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **False**
-- version: `bc5a43a`
+- version: `e220caf`
 - paper_balance: **$100,000.00** (= starting $100,000 + total_pnl $+0.00)
 - daily_pnl: **$+0.00**
 - today_trades: 0
-- lifetime win-rate: 52.0%
+- lifetime win-rate: 51.9%
 - open_positions: 0 pair(s)
 - paper_locked: $0.00
 - streaks: win=0 / loss=0
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-15 | 2 | $-1.76 | 0 | 2 | 0% |
 | 2026-05-16 | 10 | $-1,325.45 | 0 | 10 | 0% |
 | 2026-05-17 | 8 | $-1,757.85 | 3 | 5 | 38% |
 | 2026-05-18 | 15 | $-3,878.04 | 1 | 14 | 7% |
 | 2026-05-19 | 17 | $-1,206.98 | 6 | 11 | 35% |
 | 2026-05-20 | 18 | $-75.61 | 3 | 15 | 17% |
 | 2026-05-21 | 38 | $+245.97 | 28 | 10 | 74% |
+| 2026-05-22 | 10 | $+147.95 | 7 | 3 | 70% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -66,7 +66,7 @@ _(keine)_
 - ⚠️ **WIN_RATE_DROP** · `DOGEUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `DOGEUSDT` — 8 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `ETHUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `ETHUSDT` — 10 consecutive losing SELLs
+- ⚠️ **LOSS_STREAK** · `ETHUSDT` — 11 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `TONUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `VANAUSDT` — last-5 win-rate 20% (< 30%)
@@ -85,7 +85,7 @@ _(keine)_
 - Schau dir `DOGEUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `DOGEUSDT` mit 8 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `ETHUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `ETHUSDT` mit 10 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- `ETHUSDT` mit 11 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `TONUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `VANAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
