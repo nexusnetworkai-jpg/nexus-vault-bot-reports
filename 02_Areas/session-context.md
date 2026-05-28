@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-05-27T00:01:04+00:00
+generated_at: 2026-05-28T00:01:04+00:00
 generated_by: ethbot
-version: 7839978
+version: 54c45d9
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-05-27
+# Session Context — 2026-05-28
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,7 +16,7 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **False**
-- version: `7839978`
+- version: `54c45d9`
 - paper_balance: **$100,000.00** (= starting $100,000 + total_pnl $+0.00)
 - daily_pnl: **$+0.00**
 - today_trades: 0
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-20 | 18 | $-75.61 | 3 | 15 | 17% |
 | 2026-05-21 | 38 | $+245.97 | 28 | 10 | 74% |
 | 2026-05-22 | 10 | $+147.95 | 7 | 3 | 70% |
 | 2026-05-23 | 26 | $-5,058.07 | 8 | 18 | 31% |
 | 2026-05-24 | 60 | $-13,016.70 | 15 | 45 | 25% |
 | 2026-05-25 | 68 | $-8,243.03 | 18 | 50 | 26% |
 | 2026-05-26 | 73 | $-4,766.48 | 28 | 45 | 38% |
+| 2026-05-27 | 35 | $-8,055.22 | 15 | 20 | 43% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -61,12 +61,13 @@ _(keine)_
 - ⚠️ **LOSS_STREAK** · `XRPUSDT` — 13 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `AVAXUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `LINKUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `LINKUSDT` — 6 consecutive losing SELLs
-- ⚠️ **WIN_RATE_DROP** · `BNBUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **LOSS_STREAK** · `LINKUSDT` — 7 consecutive losing SELLs
+- ⚠️ **WIN_RATE_DROP** · `BNBUSDT` — last-5 win-rate 0% (< 30%)
+- ⚠️ **LOSS_STREAK** · `BNBUSDT` — 5 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `BTCUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `BTCUSDT` — 15 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `SOLUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `SOLUSDT` — 18 consecutive losing SELLs
+- ⚠️ **LOSS_STREAK** · `SOLUSDT` — 19 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `DOGEUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `DOGEUSDT` — 16 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `ETHUSDT` — last-5 win-rate 0% (< 30%)
@@ -76,11 +77,11 @@ _(keine)_
 - ⚠️ **WIN_RATE_DROP** · `TONUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `TONUSDT` — 5 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `ZECUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `VANAUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `NILUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `SPKUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `SPKUSDT` — 6 consecutive losing SELLs
-- ⚠️ **WIN_RATE_DROP** · `NEARUSDT` — last-5 win-rate 20% (< 30%)
 
 ## 🛠 Watchlist Suggestions
 
@@ -88,12 +89,13 @@ _(keine)_
 - `XRPUSDT` mit 13 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `AVAXUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `LINKUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `LINKUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
-- Schau dir `BNBUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `LINKUSDT` mit 7 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- Schau dir `BNBUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `BNBUSDT` mit 5 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `BTCUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `BTCUSDT` mit 15 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `SOLUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `SOLUSDT` mit 18 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- `SOLUSDT` mit 19 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `DOGEUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `DOGEUSDT` mit 16 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `ETHUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
@@ -103,11 +105,11 @@ _(keine)_
 - Schau dir `TONUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `TONUSDT` mit 5 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `ZECUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `VANAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `NILUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `SPKUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `SPKUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
-- Schau dir `NEARUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 
 ## 📜 Recent Commits (last 7)
 
