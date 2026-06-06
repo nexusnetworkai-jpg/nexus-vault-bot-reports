@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-06-05T00:01:03+00:00
+generated_at: 2026-06-06T00:01:03+00:00
 generated_by: ethbot
 version: 029c3cd
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-06-05
+# Session Context — 2026-06-06
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -20,7 +20,7 @@ tags: [session-context, bot-snapshot]
 - paper_balance: **$100,000.00** (= starting $100,000 + total_pnl $+0.00)
 - daily_pnl: **$+0.00**
 - today_trades: 0
-- lifetime win-rate: 51.8%
+- lifetime win-rate: 51.7%
 - open_positions: 0 pair(s)
 - paper_locked: $0.00
 - streaks: win=0 / loss=0
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-29 | 34 | $-3,971.38 | 9 | 25 | 26% |
 | 2026-05-30 | 14 | $-1,346.21 | 4 | 10 | 29% |
 | 2026-05-31 | 21 | $+1,340.36 | 14 | 7 | 67% |
 | 2026-06-01 | 19 | $-1,579.84 | 10 | 9 | 53% |
 | 2026-06-02 | 9 | $-4,265.36 | 0 | 9 | 0% |
 | 2026-06-03 | 9 | $+2,039.69 | 3 | 6 | 33% |
 | 2026-06-04 | 24 | $-1,423.06 | 7 | 17 | 29% |
+| 2026-06-05 | 10 | $-919.07 | 0 | 10 | 0% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -71,7 +71,7 @@ _(keine)_
 - ⚠️ **WIN_RATE_DROP** · `TONUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `PLUMEUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `TRXUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `TRXUSDT` — 19 consecutive losing SELLs
+- ⚠️ **LOSS_STREAK** · `TRXUSDT` — 22 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `VANAUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `NILUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `SPKUSDT` — last-5 win-rate 0% (< 30%)
@@ -94,7 +94,7 @@ _(keine)_
 - Schau dir `TONUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `PLUMEUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `TRXUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `TRXUSDT` mit 19 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- `TRXUSDT` mit 22 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `VANAUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `NILUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `SPKUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
