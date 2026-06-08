@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-06-07T00:01:03+00:00
+generated_at: 2026-06-08T00:01:03+00:00
 generated_by: ethbot
 version: 029c3cd
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-06-07
+# Session Context — 2026-06-08
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-05-31 | 21 | $+1,340.36 | 14 | 7 | 67% |
 | 2026-06-01 | 19 | $-1,579.84 | 10 | 9 | 53% |
 | 2026-06-02 | 9 | $-4,265.36 | 0 | 9 | 0% |
 | 2026-06-03 | 9 | $+2,039.69 | 3 | 6 | 33% |
 | 2026-06-04 | 24 | $-1,423.06 | 7 | 17 | 29% |
 | 2026-06-05 | 10 | $-919.07 | 0 | 10 | 0% |
 | 2026-06-06 | 6 | $-3,312.76 | 0 | 6 | 0% |
+| 2026-06-07 | 9 | $-4,293.60 | 0 | 9 | 0% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -77,6 +77,8 @@ _(keine)_
 - ⚠️ **WIN_RATE_DROP** · `SPKUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `SPKUSDT` — 6 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `NEARUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `WLDUSDT` — last-5 win-rate 0% (< 30%)
+- ⚠️ **LOSS_STREAK** · `WLDUSDT` — 6 consecutive losing SELLs
 
 ## 🛠 Watchlist Suggestions
 
@@ -100,6 +102,8 @@ _(keine)_
 - Schau dir `SPKUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `SPKUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `NEARUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `WLDUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- `WLDUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 
 ## 📜 Recent Commits (last 7)
 
