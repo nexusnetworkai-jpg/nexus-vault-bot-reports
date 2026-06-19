@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-06-18T00:01:04+00:00
+generated_at: 2026-06-19T00:01:03+00:00
 generated_by: ethbot
-version: 5944ba9
+version: 62c59b7
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-06-18
+# Session Context — 2026-06-19
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,7 +16,7 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **False**
-- version: `5944ba9`
+- version: `62c59b7`
 - paper_balance: **$100,000.00** (= starting $100,000 + total_pnl $+0.00)
 - daily_pnl: **$+0.00**
 - today_trades: 0
@@ -27,15 +27,7 @@ tags: [session-context, bot-snapshot]
 
 ## 📈 7-Day PnL Trajectory
 
-| Day | trades | pnl | wins | losses | win_rate |
-|---|---|---|---|---|---|
-| 2026-06-11 | 60 | $-3,163.30 | 17 | 43 | 28% |
-| 2026-06-12 | 2 | $-95.51 | 0 | 2 | 0% |
-| 2026-06-13 | 10 | $-19.67 | 2 | 8 | 20% |
-| 2026-06-14 | 4 | $-615.80 | 0 | 4 | 0% |
-| 2026-06-15 | 3 | $-492.68 | 0 | 3 | 0% |
-| 2026-06-16 | 4 | $-22.75 | 2 | 2 | 50% |
-| 2026-06-17 | 9 | $+159.28 | 7 | 2 | 78% |
+_Keine geschlossenen Trades in trades_hub.db der letzten 7 Tage._
 
 ## 🧠 Active Strategy Proposals
 
