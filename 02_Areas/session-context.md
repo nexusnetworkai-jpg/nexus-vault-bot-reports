@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-06-20T00:01:03+00:00
+generated_at: 2026-06-21T00:01:04+00:00
 generated_by: ethbot
 version: 859c30a
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-06-20
+# Session Context — 2026-06-21
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -29,12 +29,12 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-06-13 | 10 | $-19.67 | 2 | 8 | 20% |
 | 2026-06-14 | 4 | $-615.80 | 0 | 4 | 0% |
 | 2026-06-15 | 3 | $-492.68 | 0 | 3 | 0% |
 | 2026-06-16 | 4 | $-22.75 | 2 | 2 | 50% |
 | 2026-06-17 | 9 | $+159.28 | 7 | 2 | 78% |
 | 2026-06-19 | 7 | $-80.17 | 0 | 7 | 0% |
+| 2026-06-20 | 4 | $-109.22 | 1 | 3 | 25% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -76,8 +76,7 @@ _(keine)_
 - ⚠️ **WIN_RATE_DROP** · `SPKUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `SPKUSDT` — 6 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `NEARUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `WLDUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `WLDUSDT` — 11 consecutive losing SELLs
+- ⚠️ **WIN_RATE_DROP** · `WLDUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `ALLOUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `OPGUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `OPGUSDT` — 6 consecutive losing SELLs
@@ -104,8 +103,7 @@ _(keine)_
 - Schau dir `SPKUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `SPKUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `NEARUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `WLDUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `WLDUSDT` mit 11 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- Schau dir `WLDUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `ALLOUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `OPGUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `OPGUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
