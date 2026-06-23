@@ -1,13 +1,13 @@
 ---
-generated_at: 2026-06-22T00:01:04+00:00
+generated_at: 2026-06-23T00:01:04+00:00
 generated_by: ethbot
-version: daabeab
+version: 003a35a
 freshness_minutes: 0
 type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-06-22
+# Session Context — 2026-06-23
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -16,7 +16,7 @@ tags: [session-context, bot-snapshot]
 ## 🎯 Bot State (live snapshot)
 
 - paper_mode: **False**
-- version: `daabeab`
+- version: `003a35a`
 - paper_balance: **$100,000.00** (= starting $100,000 + total_pnl $+0.00)
 - daily_pnl: **$+0.00**
 - today_trades: 0
@@ -29,7 +29,6 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-06-15 | 3 | $-492.68 | 0 | 3 | 0% |
 | 2026-06-16 | 4 | $-22.75 | 2 | 2 | 50% |
 | 2026-06-17 | 9 | $+159.28 | 7 | 2 | 78% |
 | 2026-06-19 | 7 | $-80.17 | 0 | 7 | 0% |
