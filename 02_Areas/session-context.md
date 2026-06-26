@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-06-25T00:01:03+00:00
+generated_at: 2026-06-26T00:01:03+00:00
 generated_by: ethbot
 version: e23a83c
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-06-25
+# Session Context — 2026-06-26
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -34,6 +34,7 @@ tags: [session-context, bot-snapshot]
 | 2026-06-21 | 1 | $+18.68 | 1 | 0 | 100% |
 | 2026-06-23 | 26 | $+13.45 | 11 | 15 | 42% |
 | 2026-06-24 | 21 | $+7.10 | 10 | 11 | 48% |
+| 2026-06-25 | 14 | $-36.83 | 5 | 9 | 36% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -56,9 +57,7 @@ _(keine)_
 ## 🔔 Open Anomalies (heutige Daily-Note)
 
 - ⚠️ **WIN_RATE_DROP** · `XRPUSDT` — last-5 win-rate 20% (< 30%)
-- ⚠️ **WIN_RATE_DROP** · `AVAXUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `AVAXUSDT` — 7 consecutive losing SELLs
-- ⚠️ **WIN_RATE_DROP** · `LINKUSDT` — last-5 win-rate 20% (< 30%)
+- ⚠️ **WIN_RATE_DROP** · `AVAXUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `BTCUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `SOLUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `DOGEUSDT` — last-5 win-rate 0% (< 30%)
@@ -80,9 +79,7 @@ _(keine)_
 ## 🛠 Watchlist Suggestions
 
 - Schau dir `XRPUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- Schau dir `AVAXUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `AVAXUSDT` mit 7 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
-- Schau dir `LINKUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
+- Schau dir `AVAXUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `BTCUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `SOLUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `DOGEUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
