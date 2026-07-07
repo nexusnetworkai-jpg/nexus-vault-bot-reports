@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-07-06T00:01:03+00:00
+generated_at: 2026-07-07T00:01:04+00:00
 generated_by: ethbot
 version: e23a83c
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-07-06
+# Session Context — 2026-07-07
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-06-29 | 22 | $-91.48 | 0 | 22 | 0% |
 | 2026-06-30 | 13 | $-15.78 | 3 | 9 | 25% |
 | 2026-07-01 | 11 | $-27.07 | 5 | 6 | 45% |
 | 2026-07-02 | 3 | $-13.62 | 1 | 2 | 33% |
 | 2026-07-03 | 1 | $-8.60 | 0 | 1 | 0% |
 | 2026-07-04 | 1 | $-1.59 | 0 | 1 | 0% |
 | 2026-07-05 | 8 | $+2.25 | 3 | 5 | 38% |
+| 2026-07-06 | 4 | $-18.62 | 2 | 2 | 50% |
 
 ## 🧠 Active Strategy Proposals
 
@@ -77,7 +77,7 @@ _(keine)_
 - ⚠️ **WIN_RATE_DROP** · `SPKUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `SPKUSDT` — 6 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `ATOMUSDT` — last-5 win-rate 0% (< 30%)
-- ⚠️ **LOSS_STREAK** · `ATOMUSDT` — 5 consecutive losing SELLs
+- ⚠️ **LOSS_STREAK** · `ATOMUSDT` — 6 consecutive losing SELLs
 - ⚠️ **WIN_RATE_DROP** · `ALLOUSDT` — last-5 win-rate 20% (< 30%)
 - ⚠️ **WIN_RATE_DROP** · `OPGUSDT` — last-5 win-rate 0% (< 30%)
 - ⚠️ **LOSS_STREAK** · `OPGUSDT` — 6 consecutive losing SELLs
@@ -104,7 +104,7 @@ _(keine)_
 - Schau dir `SPKUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `SPKUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `ATOMUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
-- `ATOMUSDT` mit 5 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
+- `ATOMUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
 - Schau dir `ALLOUSDT` an — last-5 win-rate 20% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - Schau dir `OPGUSDT` an — last-5 win-rate 0% (< 30%). Lohnt sich Symbol-Filter zu prüfen oder pair-spezifischen swarm-vote-Bias zu reviewen?
 - `OPGUSDT` mit 6 consecutive losing SELLs — consecutive_losses-Tracking sollte greifen, aber ein Blick auf die letzten 5 Entry-Reasons kann zeigen, ob ein Pattern-Wechsel im Markt ist.
