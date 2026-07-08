@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-07-07T00:01:04+00:00
+generated_at: 2026-07-08T00:01:03+00:00
 generated_by: ethbot
 version: e23a83c
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-07-07
+# Session Context — 2026-07-08
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -20,7 +20,7 @@ tags: [session-context, bot-snapshot]
 - paper_balance: **$100,000.00** (= starting $100,000 + total_pnl $+0.00)
 - daily_pnl: **$+0.00**
 - today_trades: 0
-- lifetime win-rate: 51.0%
+- lifetime win-rate: 50.9%
 - open_positions: 0 pair(s)
 - paper_locked: $0.00
 - streaks: win=0 / loss=0
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-06-30 | 13 | $-15.78 | 3 | 9 | 25% |
 | 2026-07-01 | 11 | $-27.07 | 5 | 6 | 45% |
 | 2026-07-02 | 3 | $-13.62 | 1 | 2 | 33% |
 | 2026-07-03 | 1 | $-8.60 | 0 | 1 | 0% |
 | 2026-07-04 | 1 | $-1.59 | 0 | 1 | 0% |
 | 2026-07-05 | 8 | $+2.25 | 3 | 5 | 38% |
 | 2026-07-06 | 4 | $-18.62 | 2 | 2 | 50% |
+| 2026-07-07 | 4 | $-13.18 | 2 | 2 | 50% |
 
 ## 🧠 Active Strategy Proposals
 
