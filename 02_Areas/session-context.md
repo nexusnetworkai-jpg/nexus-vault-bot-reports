@@ -1,5 +1,5 @@
 ---
-generated_at: 2026-07-13T00:01:15+00:00
+generated_at: 2026-07-14T00:01:04+00:00
 generated_by: ethbot
 version: e23a83c
 freshness_minutes: 0
@@ -7,7 +7,7 @@ type: session-context
 tags: [session-context, bot-snapshot]
 ---
 
-# Session Context — 2026-07-13
+# Session Context — 2026-07-14
 
 > **Memory-Rule für Claude CLI:** Lies diese Datei IMMER als erste
 > Aktion einer Session. Sie enthält den aktuellen Lage-Bild des
@@ -29,13 +29,13 @@ tags: [session-context, bot-snapshot]
 
 | Day | trades | pnl | wins | losses | win_rate |
 |---|---|---|---|---|---|
-| 2026-07-06 | 4 | $-18.62 | 2 | 2 | 50% |
 | 2026-07-07 | 4 | $-13.18 | 2 | 2 | 50% |
 | 2026-07-08 | 9 | $+36.08 | 8 | 1 | 89% |
 | 2026-07-09 | 1 | $-7.59 | 0 | 1 | 0% |
 | 2026-07-10 | 3 | $-34.76 | 0 | 3 | 0% |
 | 2026-07-11 | 3 | $-8.62 | 0 | 3 | 0% |
 | 2026-07-12 | 6 | $-5.34 | 1 | 5 | 17% |
+| 2026-07-13 | 7 | $+17.75 | 6 | 1 | 86% |
 
 ## 🧠 Active Strategy Proposals
 
